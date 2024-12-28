@@ -547,7 +547,8 @@ namespace Gdiplus { using std::min; using std::max; }
 #pragma comment(lib, "Shlwapi.lib")
 
 // The primary user-supplied function that we call on its own thread
-extern void run();
+void run() {
+    std::cout << "Esecuzione avviata
 
 
 
